@@ -1,8 +1,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    
+    background-color: #000B49;
 }
-
+nav {
+    background-color: #FF7272;
+}
+main {
+    background-color: #FFB5B5;
+}
 h1 {
     font-family: 'Spirax', cursive;
+    background-color: #9B0000;
+    color: white;
 }
