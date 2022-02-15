@@ -10,10 +10,15 @@ nav {
 
 h1 {
     font-family: 'Spirax', cursive;
+    font-weight: lighter;
+    font-size: 50px;
     background-color: #9B0000;
     color: white;
     position: relative;
-    z-index: 2;
+    top: 338px;
+    left: -39px;
+    padding: 15px;
+    box-shadow: 0 0 39px rgba(54, 2, 2, 0.76);
 }
 
 figure {
@@ -34,8 +39,9 @@ img {
     margin: 300px 30% 10% 30%;
     padding: 3% 5%;
     background-color: #FFB5B5;
+    box-shadow: 0 0 20px rgb(0 0 0 / 40%);
     
 }
 .margin-as-description {
-    margin: -10% 10% 10% 10%;
+    margin: 0px 30% 10% 30%;
 }
