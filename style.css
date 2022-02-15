@@ -50,3 +50,8 @@ img {
     margin: 0;
     padding-inline-start: 0px;
 }
+.steps {
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0px;
+}
