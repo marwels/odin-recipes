@@ -27,7 +27,7 @@ figure {
     margin: 0;
 }
 
-img {
+header>figure>img {
     display: block;
     width: 100%;
     max-width: 100%;
@@ -54,6 +54,12 @@ img {
 }
 .navigation {
     list-style: none;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    display: flex;
+    flex-direction:row;
+    
 }
 .index-footer { /*przemyslec*/
 margin-bottom: 10px;
@@ -74,5 +80,8 @@ h1.index-heading {
     top: 100px;
     left: 20px;
     padding: 15px;
+
+}
+.imglink {
 
 }
