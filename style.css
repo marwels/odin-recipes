@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #000B49;
+    margin: 5% 25%;
 }
 nav {
     background-color: #FF7272;
@@ -13,9 +14,7 @@ h1 {
     background-color: #9B0000;
     color: white;
 }
-figure {
 
-}
 img {
     display: block;
     margin: 0 auto;
