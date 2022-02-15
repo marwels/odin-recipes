@@ -13,3 +13,11 @@ h1 {
     background-color: #9B0000;
     color: white;
 }
+figure {
+
+}
+img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover; /*The replaced content is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
+}
