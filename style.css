@@ -15,7 +15,6 @@ h1 {
     background-color: #9B0000;
     color: white;
     position: relative;
-    top: 100px;
 }
 
 figure {
@@ -26,10 +25,14 @@ img {
     display: block;
     width: 100%;
     max-width: 100%;
-    max-height: 300px;
+    max-height: 350px;
     object-fit: cover; /*The replaced content is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
 }
 .description {
-    margin: -10% 10% 10% 10%;
+    width: 40%;
+    margin: -10% 30% 10% 30%;
     background-color: #FFB5B5;
+}
+.margin-as-description {
+    margin: -10% 10% 10% 10%;
 }
