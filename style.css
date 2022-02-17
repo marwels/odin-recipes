@@ -56,10 +56,9 @@ header>figure>img {
     list-style: none;
     position: relative;
     top: 100px;
-    left: 20px;
     display: flex;
     flex-direction:row;
-    
+    justify-content: space-around;
 }
 .index-footer { /*przemyslec*/
 margin-bottom: 10px;
@@ -81,7 +80,3 @@ h1.index-heading {
     left: 20px;
     padding: 15px;
 
-}
-.imglink {
-
-}
