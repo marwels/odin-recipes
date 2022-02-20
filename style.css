@@ -79,4 +79,9 @@ h1.index-heading {
     top: 100px;
     left: 20px;
     padding: 15px;
-
+}
+.index-link {
+    background-color: #FF7272;
+    padding-left: 50px;
+    padding-right: 10px ;
+}
