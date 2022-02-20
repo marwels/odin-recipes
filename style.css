@@ -9,7 +9,7 @@ footer {
     padding-left: 50px;
 }
 
-h1 {
+.recipe-title {
     font-family: 'Spirax', cursive;
     font-weight: lighter;
     font-size: 50px;
@@ -54,31 +54,34 @@ header>figure>img {
 }
 .navigation {
     list-style: none;
-    position: relative;
-    top: 100px;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
+    padding: 0;
 }
 .index-footer { /*przemyslec*/
-margin-bottom: 10px;
-position: absolute;
-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
 }
 
 h1.index-heading {
-    top: 50px;
-    left: 20px;
     padding: 15px;
+    font-family: 'Spirax', cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    background-color: #9B0000;
+    margin: 15px 0 20px 10px;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 0 39px rgba(54, 2, 2, 0.76);
 }
 
 .intro-index {
     text-align: center;
     background-color: #FFB5B5;
-    position: relative;
-    top: 100px;
-    left: 20px;
     padding: 15px;
+    margin-bottom: 40px;
 }
 .index-link {
     background-color: #FF7272;
